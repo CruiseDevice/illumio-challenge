@@ -25,6 +25,7 @@
 1. Tested with the sample flow logs and lookup table provided in the description
 2. Tested with emply flow log file and empty lookup table.
 3. Tested with flow log entries that don't match any lookup table entry.
+4. Tested with large file (upto 10MB) to ensure performance.
 
 ### Analysis
 1. The program uses Python's built-in CSV module for reading and writing CSV files, which is efficient and reliable
